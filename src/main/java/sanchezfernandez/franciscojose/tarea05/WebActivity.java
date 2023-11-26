@@ -8,10 +8,9 @@ import androidx.appcompat.app.AppCompatActivity;
 /**
  * Clase de activity_web. Únicamente carga la url en el WebView.
  *
- * Me ha surgido que al probarlo en mi movil, al abrir el enlace se ejecuta en mi navegador por
- * defecto, quedando una activity en negro abiera en mi aplicación, teniendo que dar atrás para
- * cerrarla. No he sido capaz de averiguar como cerrar la activity si se está usando una aplicación
- * externa.
+ * Me ha surgido que al probarlo, al abrir el enlace se ejecuta en el navegador por defecto,
+ * quedando una activity en negro (o blanca en el movil fisico) abiera en la aplicación, teniendo
+ * que cerrarla manualmente. De momento, no he sido capaz de implementar como cerrar eso.
  */
 public class WebActivity extends AppCompatActivity {
     @Override
